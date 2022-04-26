@@ -24,9 +24,3 @@ python TIMER.py --input INPUTFILE     query sequences to be predicted in fasta f
                           or 'S. Typhimurium' or'General.
 ```
 
-# Example
-```
-# Prediction for B.amyloliquefaciens promoters:
-  python TIMER.py --input examples.txt --output output.txt 
-                  --seq_type fixed_length --species B.amyloliquefaciens
-```
