@@ -3,7 +3,7 @@
 
 TIMER is a deep-learning framework for general and species-specific bacterial promoter prediction.  
 
-The benchmark datasets can be found in `./train_data/`. The independent test sets can be found in `./test_data/`. The TIMER models is available in `./models/`. See our paper for more details.
+The benchmark datasets can be found in `./train_data/`. The independent test sets can be found in `./test_data/`. The TIMER models is available in `./models/`. The prediction code can be found in `./codes/`. See our paper for more details.
 
 ### Requirements:
 - python 3.6
