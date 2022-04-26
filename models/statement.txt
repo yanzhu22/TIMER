@@ -1,1 +1,0 @@
-In this folder are the model .h5 files trained for each species.
