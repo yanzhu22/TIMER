@@ -135,71 +135,71 @@ def main():
     if speciesfile == 'B.amyloliquefaciens':
         Species_name = 'B.amyloliquefaciens'
         trainX = load_data(Species_name=Species_name, pattern='train_all')
-        model = load_model("models/B.amyloliquefaciens.h5",custom_objects = {'relu6': relu6, 'hard_swish': hard_swish})
+        model = load_model("../models/B.amyloliquefaciens.h5",custom_objects = {'relu6': relu6, 'hard_swish': hard_swish})
         predictions = test(model, trainX, ppp, 1)
     elif speciesfile == 'C.jejuni':
         Species_name = 'C.jejuni'
         trainX = load_data(Species_name=Species_name, pattern='train_all')
-        model = load_model("models/C.jejuni.h5",custom_objects = {'relu6': relu6, 'hard_swish': hard_swish})
+        model = load_model("../models/C.jejuni.h5",custom_objects = {'relu6': relu6, 'hard_swish': hard_swish})
         predictions = test(model, trainX, ppp, 2)
     elif speciesfile == 'C.pneumoniae':
         Species_name = 'C.pneumoniae'
         trainX = load_data(Species_name=Species_name, pattern='train_all')
-        model = load_model("models/C.pneumoniae.h5",custom_objects = {'relu6': relu6, 'hard_swish': hard_swish})
+        model = load_model("../models/C.pneumoniae.h5",custom_objects = {'relu6': relu6, 'hard_swish': hard_swish})
         predictions = test(model, trainX, ppp, 2)
     elif speciesfile == 'E.coli':
         Species_name = 'E.coli'
         trainX = load_data(Species_name=Species_name, pattern='train_all')
-        model = load_model("models/E.coli.h5",custom_objects = {'relu6': relu6, 'hard_swish': hard_swish})
+        model = load_model("../models/E.coli.h5",custom_objects = {'relu6': relu6, 'hard_swish': hard_swish})
         predictions = test(model, trainX, ppp, 1)
     elif speciesfile == 'H.pylori':
         Species_name = 'H.pylori'
         trainX = load_data(Species_name=Species_name, pattern='train_all')
-        model = load_model("models/H.pylori.h5",custom_objects = {'relu6': relu6, 'hard_swish': hard_swish})
+        model = load_model("../models/H.pylori.h5",custom_objects = {'relu6': relu6, 'hard_swish': hard_swish})
         predictions = test(model, trainX, ppp, 2)
     elif speciesfile == 'L.interrogans':
         Species_name = 'L.interrogans'
         trainX = load_data(Species_name=Species_name, pattern='train_all')
-        model = load_model("models/L.interrogans.h5",custom_objects = {'relu6': relu6, 'hard_swish': hard_swish})
+        model = load_model("../models/L.interrogans.h5",custom_objects = {'relu6': relu6, 'hard_swish': hard_swish})
         predictions = test(model, trainX, ppp, 1)
     elif speciesfile == 'L.phytofermentans':
         Species_name = 'L.phytofermentans'
         trainX = load_data(Species_name=Species_name, pattern='train_all')
-        model = load_model("models/L.phytofermentans.h5",custom_objects = {'relu6': relu6, 'hard_swish': hard_swish})
+        model = load_model("../models/L.phytofermentans.h5",custom_objects = {'relu6': relu6, 'hard_swish': hard_swish})
         predictions = test(model, trainX, ppp, 1)
     elif speciesfile == 'M.smegmatis':
         Species_name = 'M.smegmatis'
         trainX = load_data(Species_name=Species_name, pattern='train_all')
-        model = load_model("models/M.smegmatis.h5",custom_objects = {'relu6': relu6, 'hard_swish': hard_swish})
+        model = load_model("../models/M.smegmatis.h5",custom_objects = {'relu6': relu6, 'hard_swish': hard_swish})
         predictions = test(model, trainX, ppp, 1)
     elif speciesfile == 'R.capsulatus':
         Species_name = 'R.capsulatus'
         trainX = load_data(Species_name=Species_name, pattern='train_all')
-        model = load_model("models/R.capsulatus.h5",custom_objects = {'relu6': relu6, 'hard_swish': hard_swish})
+        model = load_model("../models/R.capsulatus.h5",custom_objects = {'relu6': relu6, 'hard_swish': hard_swish})
         predictions = test(model, trainX, ppp, 1)
     elif speciesfile == 'S.coelicolor':
         Species_name = 'S.coelicolor'
         trainX = load_data(Species_name=Species_name, pattern='train_all')
-        model = load_model("models/S.coelicolor.h5",custom_objects = {'relu6': relu6, 'hard_swish': hard_swish})
+        model = load_model("../models/S.coelicolor.h5",custom_objects = {'relu6': relu6, 'hard_swish': hard_swish})
         predictions = test(model, trainX, ppp, 1)
     elif speciesfile == 'S.oneidensis':
         Species_name = 'S.oneidensis'
         trainX = load_data(Species_name=Species_name, pattern='train_all')
-        model = load_model("models/S.oneidensis.h5",custom_objects = {'relu6': relu6, 'hard_swish': hard_swish})
+        model = load_model("../models/S.oneidensis.h5",custom_objects = {'relu6': relu6, 'hard_swish': hard_swish})
         predictions = test(model, trainX, ppp, 1)
     elif speciesfile == 'S.pyogenes':
         Species_name = 'S.pyogenes'
         trainX = load_data(Species_name=Species_name, pattern='train_all')
-        model = load_model("models/S.pyogenes.h5",custom_objects = {'relu6': relu6, 'hard_swish': hard_swish})
+        model = load_model("../models/S.pyogenes.h5",custom_objects = {'relu6': relu6, 'hard_swish': hard_swish})
         predictions = test(model, trainX, ppp, 1)
     elif speciesfile == 'S.Typhimurium':
         Species_name = 'S.Typhimurium'
         trainX = load_data(Species_name=Species_name, pattern='train_all')
-        model = load_model("models/S.Typhimurium.h5",custom_objects = {'relu6': relu6, 'hard_swish': hard_swish})
+        model = load_model("../models/S.Typhimurium.h5",custom_objects = {'relu6': relu6, 'hard_swish': hard_swish})
         predictions = test(model, trainX, ppp, 1)
     elif speciesfile == 'General':
         trainX = load_data(Species_name='general', pattern='train_all')
-        model = load_model("models/General.h5",custom_objects = {'relu6': relu6, 'hard_swish': hard_swish})
+        model = load_model("../models/General.h5",custom_objects = {'relu6': relu6, 'hard_swish': hard_swish})
         predictions = test(model, trainX, ppp, 2)
 
     probability = ['%.5f' % float(i) for i in predictions]
@@ -221,4 +221,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
