@@ -198,7 +198,7 @@ def main():
         model = load_model("models/S.Typhimurium.h5",custom_objects = {'relu6': relu6, 'hard_swish': hard_swish})
         predictions = test(model, trainX, ppp, 1)
     elif speciesfile == 'General':
-        trainX = load_data(Species_name='General', pattern='train_all')
+        trainX = load_data(Species_name='general', pattern='train_all')
         model = load_model("models/General.h5",custom_objects = {'relu6': relu6, 'hard_swish': hard_swish})
         predictions = test(model, trainX, ppp, 2)
 
@@ -221,3 +221,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
