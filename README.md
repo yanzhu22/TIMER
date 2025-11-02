@@ -12,6 +12,8 @@ The benchmark datasets can be found in `./train_data/`. The independent test set
 - scikit-learn==0.20.0
 - scipy==1.4.1
 - tensorflow==2.3.0
+- pandas-1.1.3
+- absl-py-0.7.1
 
 # Usage
 ```
