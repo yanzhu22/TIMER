@@ -2,7 +2,7 @@ import numpy as np
 
 def load_data(Species_name, pattern):
     seq = []
-    fp1 = open('train-data/' + Species_name + '/' + pattern + '_p.txt')
+    fp1 = open('../train-data/' + Species_name + '/' + pattern + '_p.txt')
     for line in fp1:
         if line[0] != '>':
             seq.append(replace_seq(line.strip()))
